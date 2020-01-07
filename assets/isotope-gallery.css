@@ -1,0 +1,51 @@
+
+.isotope {
+	margin-top: 100px;
+	margin-bottom: 160px;
+}
+
+.isotope__buttons {
+	margin-bottom: 20px;
+}
+
+.isotope__btn {
+    position: relative;
+    border-radius: 0;
+}
+
+.isotope__btn-count {
+    position: absolute;
+    top: -9px;
+    font-size: .6em;
+    color: #000;
+    background: #fff;
+    padding: 2px;
+    right: -2px;
+}
+
+.isotope:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.isotope__link {
+	overflow: hidden;
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 5px;
+}
+
+
+.isotope__link--isotope-horizontal {
+	width: 404px;
+}
+
+.isotope__link--isotope-vertical {
+	height: 200px;
+}
+
+.isotope__img {
+	width: 100%;
+}
